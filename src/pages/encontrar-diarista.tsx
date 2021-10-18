@@ -54,7 +54,7 @@ const EncontrarDiaristas: React.FC = () => {
 					color={colors.accent}
 					disabled={!cepValido || carregando}
 					onPress={() => buscarProfissionais(cep)}
-					Loading={carregando}
+					loading={carregando}
 				>
 					Buscar
 				</Button>
